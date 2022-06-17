@@ -42,31 +42,30 @@
         android:layout_marginStart="1dp"
         android:layout_marginTop="46dp"
         android:layout_marginEnd="0dp" />
-    <EditText
-        android:id="@+id/mname"
-        android:textAlignment="center"
-        android:hint="Enter Your Mother Name"
+
+    <Spinner
+        android:id="@+id/spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/fname"
         android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="46dp"
-        android:layout_marginEnd="0dp" />
+        android:layout_marginTop="22dp"></Spinner>
+
     <EditText
         android:id="@+id/email"
-        android:textAlignment="center"
-        android:hint="Enter Your Email"
-        android:inputType="textWebEmailAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/mname"
+        android:layout_below="@+id/spinner"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="46dp"
-        android:layout_marginEnd="0dp" />
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="0dp"
+        android:hint="Enter Your Email"
+        android:inputType="textWebEmailAddress"
+        android:textAlignment="center" />
+
     <EditText
         android:id="@+id/mob"
         android:textAlignment="center"
